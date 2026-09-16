@@ -21,8 +21,7 @@
     "lucide-react": "^0.408.0",
     "react-hot-toast": "^2.4.1",
     "zustand": "^4.4.7",
-    "clsx": "^2.1.1",
-    "cmdk": "^0.2.1"
+    "clsx": "^2.1.1"
   },
   "devDependencies": {
     "typescript": "^5.4.5",
@@ -32,6 +31,8 @@
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "eslint": "^9.3.0",
-    "eslint-config-next": "^14.2.3"
+    "eslint-config-next": "^14.2.3",
+    "@types/node": "^20.12.12",
+    "@tailwindcss/forms": "^0.5.7"
   }
 }
