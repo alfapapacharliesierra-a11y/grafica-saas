@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/vercel.json",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_URL",
+      "description": "URL do projeto Supabase",
+      "value": ""
+    },
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "description": "Chave anônima do Supabase",
+      "value": ""
+    },
+    {
+      "key": "NEXT_PUBLIC_ACCESS_TOKEN",
+      "description": "Token de acesso local",
+      "value": "grafica-local-2024"
+    }
+  ]
+}
